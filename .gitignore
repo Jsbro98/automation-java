@@ -37,5 +37,5 @@ build/
 ### Mac OS ###
 .DS_Store
 /.idea/encodings.xml
-/src/main/java/org/utils/update/Update.class
-/src/main/java/org/utils/update/Update.jar
+/src/main/java/org/utils/Update.class
+/src/main/java/org/utils/Update.jar

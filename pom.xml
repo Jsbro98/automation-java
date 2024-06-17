@@ -23,7 +23,7 @@
                 <configuration>
                     <archive>
                         <manifest>
-                            <mainClass>org.utils.update.Update</mainClass>
+                            <mainClass>org.utils.Update</mainClass>
                         </manifest>
                     </archive>
                 </configuration>
