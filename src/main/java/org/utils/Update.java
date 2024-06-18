@@ -22,7 +22,8 @@ public class Update {
 
       reader.close();
     } catch (IOException e) {
-      throw new RuntimeException(e);
+      System.out.println("Error in executing commands");
+      e.printStackTrace();
     }
   }
 }
