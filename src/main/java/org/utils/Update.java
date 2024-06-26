@@ -9,7 +9,7 @@ public class Update {
   public static void main(String[] args) {
     ProcessBuilder procBuilder = new ProcessBuilder();
     procBuilder.command("sudo", "apt", "update");
-    procBuilder.command("sudo", "apt", "upgrade");
+    procBuilder.command("sudo", "apt", "upgrade", "-y");
     procBuilder.directory(new File(System.getProperty("user.home")));
     try {
       Process process = procBuilder.start();
