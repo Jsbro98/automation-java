@@ -20,6 +20,7 @@ public class UpdateProcessManager {
   private void createProcess() {
     pb.command("sudo", "apt", "update");
     pb.command("sudo", "apt", "upgrade", "-y");
+    pb.command("sudo", "apt", "autoremove");
     pb.directory(new File(System.getProperty("user.home")));
   }
 
